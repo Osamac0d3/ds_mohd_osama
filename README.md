@@ -1,6 +1,6 @@
-# 📊 Trader Behavior vs Market Sentiment Analysis
+# Trader Behavior vs Market Sentiment Analysis
 
-## 🧠 About This Project
+## About This Project
 
 This repository contains my **Data Science internship project notebook**, where I analyze how **market sentiment (Fear vs Greed)** affects **trader behavior** in the cryptocurrency market.
 
@@ -8,7 +8,7 @@ The analysis is fully implemented in **`notebook_1.ipynb`** using Python and Goo
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Market sentiment strongly influences trading decisions.
 This project aims to understand:
@@ -21,7 +21,7 @@ The goal is to identify **behavioral patterns** that can support smarter trading
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ds_mohd_osama/
@@ -36,15 +36,15 @@ ds_mohd_osama/
 
 ---
 
-## 📊 Datasets Used
+## Datasets Used
 
-### 1️⃣ Market Sentiment Dataset
+### Market Sentiment Dataset
 
 * Contains daily Bitcoin sentiment data
 * Classified as **Fear** or **Greed**
 * Used to represent overall market psychology
 
-### 2️⃣ Historical Trader Dataset
+### Historical Trader Dataset
 
 * Trade-level execution data
 * Includes:
@@ -58,46 +58,46 @@ ds_mohd_osama/
 
 ---
 
-## 🛠️ Notebook Workflow (As Implemented)
+## Notebook Workflow (As Implemented)
 
 The notebook follows this exact sequence:
 
-1️⃣ **Data Loading**
+   **Data Loading**
 
 * Loaded sentiment and trader datasets
 * Initial inspection using `.head()`, `.info()`, `.describe()`
 
-2️⃣ **Data Cleaning & Preprocessing**
+   **Data Cleaning & Preprocessing**
 
 * Timestamp conversion and alignment
 * Removal of invalid or missing trade records
 * Standardization of sentiment labels
 
-3️⃣ **Feature Engineering**
+   **Feature Engineering**
 
 * Trade volume calculation
 * Profit/loss indicators
 * Risk representation using leverage
 
-4️⃣ **Data Merging**
+   **Data Merging**
 
 * Sentiment data merged with trader data using date alignment
 * Each trade mapped to corresponding market sentiment
 
-5️⃣ **Exploratory Data Analysis (EDA)**
+   **Exploratory Data Analysis (EDA)**
 
 * Profitability comparison across Fear vs Greed
 * Leverage and risk behavior analysis
 * Volume and distribution analysis using visualizations
 
-6️⃣ **Insights & Interpretation**
+   **Insights & Interpretation**
 
 * Behavioral differences identified
 * Risk-reward patterns analyzed
 
 ---
 
-## 📈 Key Observations
+## Key Observations
 
 * Traders generally use **higher leverage during Greed phases**
 * Increased trading activity does **not always improve profitability**
@@ -106,7 +106,7 @@ The notebook follows this exact sequence:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 The notebook demonstrates that **market sentiment significantly impacts trader behavior**.
 While Greed encourages aggressive trading, disciplined strategies during Fear phases may lead to better risk-adjusted performance.
@@ -115,7 +115,7 @@ This analysis highlights the importance of **emotion-aware trading strategies** 
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Include Extreme Fear & Extreme Greed categories
 * Perform trader-level clustering
@@ -124,7 +124,7 @@ This analysis highlights the importance of **emotion-aware trading strategies** 
 
 ---
 
-## 🧰 Tools & Environment
+## Tools & Environment
 
 * Python
 * Pandas, NumPy
@@ -133,7 +133,7 @@ This analysis highlights the importance of **emotion-aware trading strategies** 
 
 ---
 
-## 📌 Notes
+## Notes
 
 * All analysis is contained in `notebook_1.ipynb`
 * Charts generated in the notebook are saved in the `outputs/` folder
